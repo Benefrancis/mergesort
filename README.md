@@ -1,9 +1,15 @@
 # merge Sort
+
+<img src="Merge-sort-example-300px.gif">
+
 O merge sort, ou ordenação por mistura, é um exemplo de algoritmo de ordenação por comparação do tipo dividir-para-conquistar.
 
 Sua ideia básica consiste em Dividir (o problema em vários subproblemas e resolver esses subproblemas através da recursividade) e Conquistar (após todos os subproblemas terem sido resolvidos ocorre a conquista que é a união das resoluções dos subproblemas). 
 
 Como o algoritmo Merge Sort usa a recursividade, há um alto consumo de memória e tempo de execução, tornando esta técnica não muito eficiente em alguns problemas.
+
+<img src="300px-Merge_sort_algorithm_diagram.svg.png">
+
 
 
 # VM Arguments
@@ -15,7 +21,7 @@ Como o algoritmo Merge Sort usa a recursividade, há um alto consumo de memória
 -Xmx2g
 
 
-#See
+# See More in
 
 https://pt.wikipedia.org/wiki/Merge_sort
 
