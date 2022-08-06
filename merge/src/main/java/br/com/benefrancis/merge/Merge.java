@@ -16,7 +16,7 @@ public class Merge {
 		long decorrido;
 
 		Random rand = new Random();
-		int[] numbers = new int[100000];
+		int[] numbers = new int[10];
 
 		// inserindo os números no array de forma aleatória.
 		// No metodo nextInt sorteará apenas números Retorna um pseudorandom,
@@ -37,9 +37,11 @@ public class Merge {
 		System.out.println("Depois: ");
 		printArray(numbers);
 
-		System.out.println("\r\nSorteamos " + numbers.length + " números e inserimos num vetor. "
-				+ "\nEm seguida, utilizamos o Merge Sorte para ordenação. \nA ordenação dos elementos levou " + decorrido
-				+ " ms para ser concluído.");
+		// @formatter:off
+ 		System.out.println("\r\nSorteamos " + numbers.length + " números e inserimos num vetor. "
+				+ "\nEm seguida, utilizamos o Merge Sorte para ordenação. "
+				+ "\nA ordenação dos elementos levou " + decorrido + " ms para ser concluído.");
+ 		// @formatter:on
 
 	}
 
@@ -62,6 +64,12 @@ public class Merge {
 		for (int i = mid; i < length; i++) {
 			right[i - mid] = numbers[i];
 		}
+
+//		System.out.println("Left: ");
+//		printArray(left);
+//		
+//		System.out.println("Right: ");
+//		printArray(right);
 
 		sort(left);
 
