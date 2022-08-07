@@ -65,11 +65,6 @@ public class Merge {
 			right[i - mid] = numbers[i];
 		}
 
-//		System.out.println("Left: ");
-//		printArray(left);
-//		
-//		System.out.println("Right: ");
-//		printArray(right);
 
 		sort(left);
 
