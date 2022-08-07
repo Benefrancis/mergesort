@@ -14,11 +14,16 @@ Como o algoritmo Merge Sort usa a recursividade, há um alto consumo de memória
 
 # VM Arguments
 
--Xlog:gc*:file=gc.txt
+-Xlog:gc*:file=gc.txt 
+
 -XX:+UseParallelGC 
+
 -Xmn500m  
+
 -Xms2g 
+
 -Xmx2g
+
 
 
 # See More in
